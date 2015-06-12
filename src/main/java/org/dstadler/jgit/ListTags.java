@@ -18,7 +18,7 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 public class ListTags {
     public static void main(String[] args) throws IOException, GitAPIException {
         // first create a test-repository, the return is including the .get directory here!
-        File repoDir = new File("/home/awrobel/java/workspace/rci-services/.git");// createSampleGitRepo();
+        File repoDir = new File("path_to_repo");// createSampleGitRepo();
         
         // now open the resulting repository with a FileRepositoryBuilder
         FileRepositoryBuilder builder = new FileRepositoryBuilder();
