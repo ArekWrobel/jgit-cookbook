@@ -39,7 +39,7 @@ public class CreateNewRepository {
         Git git = Git.init().setDirectory(localPath).call();
 
         System.out.println("Having repository: " + git.getRepository().getDirectory());
-
+        
         git.close();
 
         FileUtils.deleteDirectory(localPath);
